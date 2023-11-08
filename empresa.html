@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- <link rel="stylesheet" type="text/css" href="/node_modules/bootstrap/dist/css/bootstrap.min.css" media="screen" /> -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+   <link rel="stylesheet" href="css/styles.css">
+   <title>Día del pijama</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg p-2 fixed-top navbar-dark bg-customize">
+        <a class="navbar-brand" href="index.html">Inicio</a>
+        <button class="navbar-toggler" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navbarNavAltMarkup" 
+            aria-controls="navbarNavAltMarkup" 
+            aria-expanded="false" 
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">  
+       
+            <ul class="navbar-nav">
+                <li class="nav-item custom-dropdown">
+                    <a class="nav-link dropdown-toggle" href="acogida.html">Acogida</a>
+                    <ul class="dropdown-menu bg-customize">
+                        <li><a class="dropdown-item" href="./funciona.html">Cómo funciona</a></li>
+                        <li><a class="dropdown-item" href="./proceso.html">Proceso</a></li> 
+                        <li><a class="dropdown-item" href="./comunidad.html">Acoger en mi comunidad autónoma</a></li> 
+                    </ul>
+                </li>
+                <li class="nav-item custom-dropdown">
+                    <a class="nav-link dropdown-toggle" href="colabora.html">Colabora</a>
+                    <ul class="dropdown-menu bg-customize">
+                        <li><a class="dropdown-item" href="./particular.html">Como particular</a></li>
+                        <li><a class="dropdown-item" href="./empresa.html">Como empresa</a></li> 
+                        <li><a class="dropdown-item" href="centro.html">Como centro de estudios</a></li> 
+                    </ul>
+                </li>
+            </ul>
+        
+
+    </div> 
+    </nav>
+    <br><br>
+ 
+    <div class="container-fluid" id="banner">
+        <img src="./img/hands-2847508_1920.jpg" class="mt-2 img-fluid" alt="niños" >
+      </div>
+   
+ <div class="container">
+  <div class="row mt-4" id="cabecera">
+      <div class="col-2 d-flex justify-content-end align-items-center">
+          <img class="baby" src="./img/baby-528887.svg" alt="niño-pijama">
+      </div>
+      <div class="col-8 d-flex justify-content-center align-items-center">
+          <h1 class="mobile-h1" id="tittle">Colabora con nosotros</h1>
+      </div>
+      <div class="col-2 d-flex justify-content-start align-items-center">
+          <img class="baby" src="./img/baby-528887.svg" alt="niño-pijama">
+      </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+    <aside class="mt-4 mb-4 aside-left">
+        <div><h3 id="redes">Ayúdanos a difundir el mensaje con tus redes sociales</h3></div>
+        <div>
+            <a href="https://es-es.facebook.com/"><img src="./img/message_chat_network_social_media_facebook_icon_218848.svg" class="animed"></a>
+            <a href="https://www.instagram.com/"><img src="./img/instagram_internet_media_network_social_icon_123258.svg" class="animed"></a>
+            <a href="https://twitter.com/"><img src="./img/4213457-bird-media-network-social-sparrow-tweet-twitter_115394.svg" class="animed"></a>
+            <a href="https://www.whatsapp.com/"><img src="./img/social_whatsapp_icon_158172.svg" class="animed"></a>
+        </div>
+    </aside>
+</div>
+<div class="container">
+
+   <section class="seccion p-4">
+    <h2 class="subtittle">Si tienes una empresa</h2>
+
+    <div class="text">
+       <p class="coral">ASEAF ofrece a cualquier Administración, entidad, empresa o particular, un marco en el que promover y desarrollar acciones dirigidas a la Infancia y Adolescencia, que se encuentra en el Sistema de Protección a la Infancia en España, en cualquiera de sus Comunidades.
+        </p>
+       
+        <p class="coral">
+        ASEAF distinguirá a estas entidades, a través del sello y el diploma exclusivo ”Entidad Comprometida con la Protección a la Infancia", que podrán ser utilizados por la entidad en los soportes que desee. </p>
+        
+        <p class="coral">Si quieres saber más contáctanos:</p>    
+        <div class="mt-5">
+            <form class="row g-3">
+            <div class="col-xl-4 col-md-6 col-sm-12">
+              <label for="inputEmail" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail" required>
+            </div>
+            <div class="col-xl-4 col-md-6 col-sm-12">
+              <label for="inputPassword" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="inputName" required>
+            </div>
+            <div class="col-xl-6 col-md-6 col-sm-12">
+                <label for="FormControlTextarea1" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="FormControlTextarea" rows="3"></textarea>
+              </div>
+            
+            <div class="col-12">
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Enviar</button>
+            
+            </form>
+        </div>
+
+    <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Formulario enviado correctamente
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          
+        </div>
+      </div>
+    </div>
+</div>
+  
+    </div>
+        
+          
+    </div>
+   </section>
+</div>
+<footer class="footer bg-customize text-light mt-2 py-3">
+    <div class="container">
+       <div class="row">
+           <div class="col-md-4 col-sm-12">
+               <h5 class="mb-3">Enlaces de interés</h5>
+                <ul>
+                   <li><a href="index.html">Inicio</a></li>
+                   <li><a href="#">Acerca de nosotros</a></li>
+                   <li><a href="#">Contacto</a></li>
+               </ul>
+           </div>
+           <div class="col-md-4 col-sm-12">
+               <h5 class="mb-3">No te olvides de difundir el mensaje</h5>
+               <div id="links-redes">
+                   <a href="https://es-es.facebook.com/"><img src="./img/message_chat_network_social_media_facebook_icon_218848.svg" class="animed"></a>
+                   <a href="https://www.instagram.com/"><img src="./img/instagram_internet_media_network_social_icon_123258.svg" class="animed"></a>
+                   <a href="https://twitter.com/"><img src="./img/4213457-bird-media-network-social-sparrow-tweet-twitter_115394.svg" class="animed"></a>
+                   <a href="https://www.whatsapp.com/"><img src="./img/social_whatsapp_icon_158172.svg" class="animed"></a>
+               </div>
+           </div>
+           <div class="col-md-4 col-sm-12">
+               <h5 class="mb-3">Fuentes</h5>
+               <ul>
+                  <li><a href="https://www.eldiario.es">El diario</a></li>
+                  <li><a href="https://www.lavozdegalicia.es">La voz de Galicia</a></li>
+                  <li><a href="https://www.lavanguardia.com">La vanguardia</a></li>
+                  <li><a href="https://www.gva.es">gva</a></li>
+                  <li><a href="https://www.aseaf.org/apoya-el-acogimiento-familiar">aseaf</a></li>
+              </ul>
+          </div>
+          <div class="d-flex justify-content-center"><p>Autor: Vanessa Esteve Carrión</p></div>
+       </div>
+      
+    </div>
+</footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</html>
